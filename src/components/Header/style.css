@@ -1,0 +1,50 @@
+li {
+    list-style: none;
+}
+
+ul {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+a {
+    padding-right: 47px;
+    text-decoration: none;
+    color: #4F5665;
+    font-family: 'Rubik', sans-serif;
+    font-size: 16px;
+    font-weight:400;
+}
+
+.container {
+    margin-top:40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.sign__in {
+    color: black;
+    font-weight:500;
+}
+
+.sign__up {
+    background-color: #fff;
+    width: 150px;
+    height: 45px;
+    border: 3px solid red;
+    color: red;
+    border-radius: 20px;
+    font-family: 'Rubik', sans-serif;
+    font-size: 16px;
+    font-weight:500;
+}
+.sign__up:hover{
+    border: 3px solid pink;
+    background-color: pink;
+    color: whitesmoke;
+    transition: 0.4s;
+}
+a:hover{
+    color: grey;
+}

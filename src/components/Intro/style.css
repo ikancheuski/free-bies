@@ -1,0 +1,51 @@
+h1 {
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 50px;
+    line-height: 70px;
+    margin-bottom: 40px;
+}
+
+.container{
+    margin-top:90px;
+}
+
+.h {
+    font-weight: 700;
+}
+
+.p{
+    font-weight:500;
+}
+
+p {
+    margin-bottom: 40px;
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.get__started {
+    width: 250px;
+    height: 62px;
+    background-color: #F53838;
+    color: white;
+    border-radius: 10px;
+    border-style: none;
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 25px;
+    box-shadow: 1px 20px 52px -2px rgba(245, 56, 56, 0.56);
+}
+
+.get__started:hover {
+    background-color: red;
+    transition: 0.5s;
+}
+.intro__info{
+    max-width: 580px;
+}
